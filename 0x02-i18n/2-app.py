@@ -28,7 +28,7 @@ app.config.from_object(Config)
 @app.route('/', strict_slashes=False)
 def home():
     """Renders a Basic Template"""
-    return render_template('2-index.html', title='Welcome to Holberton')
+    return render_template('2-index.html')
 
 
 if __name__ == '__main__':
